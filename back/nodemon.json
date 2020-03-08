@@ -1,0 +1,6 @@
+{
+  "events": {
+    "start": "fuser -k 5000/tcp"
+  },
+  "delay": 2500
+}

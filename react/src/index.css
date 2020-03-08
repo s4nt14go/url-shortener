@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SF-Pro-Display-Regular';
+  src: local('SF-Pro-Display-Regular'), url(./fonts/FontsFree-Net-SFProDisplay-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: 'SF-Pro-Display-Regular';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SF-Pro-Display-Regular"
+}
