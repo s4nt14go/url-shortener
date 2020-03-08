@@ -1,6 +1,6 @@
-import request from 'request';
-import linksController from '../controllers/LinksController';
-import BitlyAPI from 'node-bitlyapi';
+const request = require('request');
+const linksController = require('../controllers/LinksController');
+const BitlyAPI = require('node-bitlyapi');
 require('dotenv').config();
 const Bitly = new BitlyAPI({
   client_id: process.env.BITLY_CLIENT_ID,
