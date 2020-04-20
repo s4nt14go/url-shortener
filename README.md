@@ -39,7 +39,7 @@ The backend uses MongoDB Atlas cloud service and Bitly url shortener, so you wil
     * Create a cluster
     * Create a user going to Security > Database Access and choosing Read and write to any database for Database user privileges 
     * Under Security > Network Access click on Add IP address and fill Whitelist entry with 0.0.0.0/0 to allow access from everywhere
-    * Under Atlas > Clusters click on Connect button, choose Connect your app, then driver Node.js and copy the Connection string, it would be similar to mongodb+srv://<username>:<password>@<clusterName>.mongodb.net/test?retryWrites=true&w=majority
+    * Under Atlas > Clusters click on Connect button, choose Connect your app, then driver Node.js and copy the Connection string, it would be similar to mongodb+srv://`yourUsername`:`yourPassword`@<clusterName>.mongodb.net/test?retryWrites=true&w=majority
     * Copy that string into .env variable `MONGO_DB_URL` and for `LINKS_COLLECTION` put the collection name you like, for example Links
     
 * Bitly setting:
