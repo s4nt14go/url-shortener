@@ -22,8 +22,6 @@ Requirements:
 - The *backend* must be developed using the Node
 - The used font is [SF Pro Display](https://developer.apple.com/fonts/)
 
-### ✨ <a href="https://shorten-aqa7s7uoga-uc.a.run.app" target="_blank">Demo</a>
-
 ## Install
 
 ```sh
